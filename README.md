@@ -2,6 +2,25 @@
 Nuber-client ( Typescript , React , NodeJS, GraphQL )
 
 
+## Screens:
+
+## Logged Out:
+
+    - [ ] Home
+    - [ ] Phone Login
+    - [ ] Verify Phone Number
+    - [ ] Social Login
+
+## Logged In:
+
+    - [ ] Home
+    - [ ] Ride
+    - [ ] Edit Account
+    - [ ] Settings
+    - [ ] Places
+    - [ ] Add Place
+    - [ ] Find Address
+    - [ ] ride history
 
 
 # 참고 사항
@@ -13,3 +32,11 @@ Nuber-client ( Typescript , React , NodeJS, GraphQL )
 > apollo-boost
 - https://www.apollographql.com/docs/react/essentials/get-started
 
+> Styled Components Typescript
+- https://www.styled-components.com/docs/api#typescript
+- https://www.styled-components.com/docs/api#deprecated-injectglobal
+
+## install 
+- yarn add @types/styled-components
+
+- yarn add react-router-dom @types/react-router-dom
