@@ -37,6 +37,10 @@ Nuber-client ( Typescript , React , NodeJS, GraphQL )
 - https://www.styled-components.com/docs/api#deprecated-injectglobal
 
 ## install 
-- yarn add @types/styled-components
 
-- yarn add react-router-dom @types/react-router-dom
+> styled 작업
+- yarn add @types/styled-components --dev
+- yarn add styled-components
+- yarn add react-router-dom 
+- yarn add @types/react-router-dom
+- yarn add styled-reset 
