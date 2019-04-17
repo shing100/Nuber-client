@@ -46,5 +46,5 @@ Nuber-client ( Typescript , React , NodeJS, GraphQL )
 - yarn add styled-reset 
 
 
->
+> 타이틀을 동적으로 업데이트 해줌
 - yarn add react-helmet
