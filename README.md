@@ -45,6 +45,8 @@ Nuber-client ( Typescript , React , NodeJS, GraphQL )
 - yarn add @types/react-router-dom
 - yarn add styled-reset 
 
+> notification
+- yarn add react-toastify
 
 > 타이틀을 동적으로 업데이트 해줌
 - yarn add react-helmet
