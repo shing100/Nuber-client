@@ -32,7 +32,7 @@ const BackArrowExtended = styled(BackArrow)`
 `;
 
 interface IProps {
-  loginCallback: MutationFn;
+  loginCallback: (response) => void;
 }
 
 const SocialLoginPresenter: React.SFC<IProps> = ({ loginCallback }) => (
@@ -45,7 +45,7 @@ const SocialLoginPresenter: React.SFC<IProps> = ({ loginCallback }) => (
         <FacebookLogin
           appId="1718196768212364"
           autoLoad={true}
-          fields="name,email,picture"
+          fields="name,first_name,last_name,email"
           callback={loginCallback}
           render={renderProps => (
             <Link onClick={renderProps.onClick}>
