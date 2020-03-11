@@ -39,6 +39,7 @@ export interface updateProfileVariables {
   email: string;
   profilePhoto: string;
 }
+
 /* tslint:disable */
 // This file was automatically generated and should not be edited.
 
@@ -118,6 +119,9 @@ export interface startPhoneVerification_StartPhoneVerification {
   export interface userProfile_GetMyProfile_user {
     __typename: "User";
     profilePhoto: string | null;
+    firstName: string;
+    lastName: string;
+    email: string | null;
     fullName: string | null;
     isDriving: boolean;
   }
